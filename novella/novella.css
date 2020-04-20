@@ -1,0 +1,80 @@
+.main-section .newsletter{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+
+}    
+.main-section .newsletter h2 {
+    font-family: 'Copperplate Gothic', 'Balthazar';
+    font-size: 10vw;
+    margin:0;
+}
+
+.main-section .newsletter .dead-man-cover {
+        margin-right: 40px;
+        margin-left: 40px;
+        padding-bottom: 25px;
+        padding-top: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-section .newsletter .dead-man-cover img{
+        width: 100%;
+        height: 50%;
+        max-height: 900px;
+        object-fit: cover;
+    }
+    .main-section .newsletter .text-block {
+        padding-right: 20px;
+        padding-left: 20px;
+        background-color: #666666;
+        border-top: 2px solid white;
+        border-bottom: 2px solid white;
+        font-size: 4vw;
+    }
+    .main-section .newsletter .form {
+        width: 100%;
+    }
+    .main-section .newsletter .form form {
+        margin-top: 30px;
+        margin-right: 20px;
+        margin-left: 20px;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+    .main-section .newsletter .form form input{
+        background-color: #343434;
+        color: white;
+        font-weight: 500;
+        height: 40px;
+        padding-left: 5px;
+        margin-bottom: 5px;
+        box-sizing: border-box;
+        border: 1px solid white;
+        width: 100%;
+        border-radius: 2px;
+        font-family: "Roboto", sans-serif;
+    }
+    .main-section .newsletter .form form input inner-text{
+        color:white;
+    }
+
+    .main-section .newsletter .form form button{
+        padding: 7.5px;
+        font-style: italic;
+        border: none;
+        color: white;
+        background-color: #343434;
+        width: 100%;
+        border-radius: 2px;
+        font-family: "Roboto", sans-serif;
+        font-size: 5vw;
+        cursor: pointer
+    }
+    .main-section .newsletter .form p {
+        font-size: 2vw;
+    }

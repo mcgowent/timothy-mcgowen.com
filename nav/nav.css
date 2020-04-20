@@ -1,16 +1,60 @@
 .nav {
     background-color: black;
-    height: 45px;
     color:white;
+    z-index: 9000;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 .home-page .nav h1 {
-    font-size: 28px;
-    padding:5px;
+    font-size: 5vw;
     margin: 0;
-    margin-left:10px;
-    font-family: 'Copperplate Gothic';
+    font-family: 'Copperplate Gothic', 'Balthazar';
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+
 }
 
+.topnav #myLinks {
+  display: none;
+}
+.topnav #myLinks a {
+    font-family: 'Copperplate Gothic', 'Balthazar';
+    font-weight: bold;
+}
+
+.topnav a {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  padding: 14px 16px;
+}
+
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 5vw;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  transition: ease-in .3s;
+}
+.topnav a.name:hover {
+  background-color: black;
+  color: white;
+}
+.active {
+  background-color: black;
+  color: white;
+}
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { }
 
